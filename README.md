@@ -8,3 +8,8 @@ Arduino UnoR3 + TFT Display + Esp8266 (Esp-01)
   - [Technical Overview](https://nurdspace.nl/ESP8266#Introduction)
   - [Youtube Tutorial](https://www.youtube.com/watch?v=qU76yWHeQuw)
 * [Kuman TFT Display Shield](https://www.amazon.ca/Kuman-Arduino-Screen-Tutorials-Mega2560/dp/B075FP83V5/ref=sr_1_10?dchild=1&keywords=TFT+display&qid=1604343441&sr=8-10)
+
+## Libraries 📚
+* [Esp8266 Library](https://github.com/sleemanj/ESP8266_Simple)
+* Kuman TFT Display Shield Libraries
+  - 
