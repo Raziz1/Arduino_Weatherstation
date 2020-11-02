@@ -28,5 +28,25 @@ This project assumes you have some basic knowledge when it comes to using both t
   
  ## Schematics ⚡
 <p> 
-  <img align='Left' src="https://github.com/Raziz1/Arduino_WeatherStation/blob/main/images/Schematic.png? raw=true">
+  <img align='Center' src="https://github.com/Raziz1/Arduino_WeatherStation/blob/main/images/Schematic.png? raw=true">
 </p>
+
+### Flashing Arduino Code on to Esp8266 (Esp-01) 📶
+To flash the WiFi Module ensure you have the following wirings connected:
+| Esp8266        | Arduino      |
+| ------------- |:-------------:| 
+| VCC           | 3.3v          | 
+| Ground        | Ground        |   
+| Tx            |Tx             | 
+| Rx            |Rx             | 
+| CHPD(Enable)  |3.3v           | 
+| GPIO          |Ground         | 
+|               |Reset - Ground | 
+
+**Arduino IDE setup:**
+* In File/Preferences/Additional Boards Manager URLs:, add the following URL, http://arduino.esp8266.com/stable/package_esp8266com_index.json
+* In Tools/Boards click on Board Manager and download the Esp8266 library. I used version 2.5 because it was the only library that worked with my module
+* Change the Baudrate of the board in the serial monitor and Board Manager. Mine worked ad 115200
+* Select generic Esp8266 module and upload the code.
+* Once the code is uploaded open the Serial Monitor and check what the board is outputting
+* *When flashing the WiFi Module with new code ensure you unplug the VCC power cable and replug it back in. This Should reboot the WiFi Module into Flash mode while clearing its memory*
