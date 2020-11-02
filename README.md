@@ -1,5 +1,5 @@
 # Arduino_WeatherStation ☁
-Arduino UnoR3 + TFT Display + Esp8266 (Esp-01)
+Arduino Uno R3 + TFT Display + Esp8266 (Esp-01)
 
 ## Parts 🔧🔨
 * [Arduino Elegoo Super Starter Kit](https://www.amazon.ca/Elegoo-Project-Starter-Tutorial-Arduino/dp/B01D8KOZF4/ref=sr_1_1_sspa?dchild=1&keywords=arduino&qid=1603991079&s=electronics&sr=1-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyNTlMVTJPSjZBUklUJmVuY3J5cHRlZElkPUEwNDYwNTY1MVhHMUM4TklJS1NIJmVuY3J5cHRlZEFkSWQ9QTA5MTU0MDIyTlVaRkYwNUZNRFY1JndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==)
@@ -32,7 +32,7 @@ This project assumes you have some basic knowledge when it comes to using both t
 </p>
 
 ### Wiring TFT Display 
-The TFT display shield consumes all the pins when directly mounted on the Arduino UnoR3 so instead follow this wiring scheme:
+The TFT display shield consumes all the pins when directly mounted on the Arduino Uno R3 so instead follow this wiring scheme:
 | TFT Display   | Arduino      |
 | ------------- |:-------------:| 
 | 5V            | 5V            | 
@@ -97,3 +97,9 @@ To upload code to the Arduino board ensure you have the following wirings connec
 * Upload the code
 * Once the code is uploaded **Switch the Tx and Rx cables.** This will allow the Arduino board to receive and transmit data to the TFT display
 * Once you are finished all the above steps **Switch the GPIO pin on the Esp8266 to 3.3v.** This ensures that it boots up into a none flash mode and reads the code in its flash memory.
+
+## Notes 📝
+* This project is still being completed...
+* This display does not support the degrees symbol
+* If you decide to change the BMP images familiarize yourself with the libraries documentaiton on Bitmaps because it is a little complicated.
+* The sketch became too large for an Arduino Uno R3 so I have upgraded to an Arduino Mega.
