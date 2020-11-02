@@ -31,6 +31,31 @@ This project assumes you have some basic knowledge when it comes to using both t
   <img align='Center' src="https://github.com/Raziz1/Arduino_WeatherStation/blob/main/images/Schematic.png? raw=true">
 </p>
 
+### Wiring TFT Display 
+The TFT display shield consumes all the pins when directly mounted on the Arduino UnoR3 so instead follow this wiring scheme:
+| TFT Display   | Arduino      |
+| ------------- |:-------------:| 
+| 5V            | 5V            | 
+| 3.3V          | 3.3V          |   
+| Ground        | Ground        | 
+| LCD_DO        | 8             | 
+| LCD_D1        | 9             | 
+| LCD_D2        | 2             | 
+| LCD_D3        | 3             | 
+| LCD_D4        | 4             |
+| LCD_D5        | 5             | 
+| LCD_D6        | 6             | 
+| LCD_D7        | 7             | 
+| LCD_RST       | A4             | 
+| LCD_CS        | A3             | 
+| LCD_RS        | A2             | 
+| LCD_WR        | A1             | 
+| LCD_RD        | A0             | 
+| SD_SS        | 10             | 
+| SD_DI        | 11             | 
+| SD_DO       | 12             | 
+| SD_SCK        | 13             | 
+
 ### Flashing Arduino Code on to Esp8266 (Esp-01) 📶
 To flash the WiFi Module ensure you have the following wirings connected:
 | Esp8266        | Arduino      |
