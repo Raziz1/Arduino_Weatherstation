@@ -56,6 +56,8 @@ The TFT display shield consumes all the pins when directly mounted on the Arduin
 | SD_DO       | 12             | 
 | SD_SCK        | 13             | 
 
+___
+
 ### Flashing Arduino Code on to Esp8266 (Esp-01) 📶
 To flash the WiFi Module ensure you have the following wirings connected:
 | Esp8266        | Arduino      |
