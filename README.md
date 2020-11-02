@@ -27,3 +27,6 @@ This project assumes you have some basic knowledge when it comes to using both t
   - You can use [ArduinoJson](https://arduinojson.org/v5/assistant/) which is a parsing assistant to break down the Json file
   
  ## Schematics ⚡
+<p> 
+  <img align='Left' src="https://github.com/Raziz1/Arduino_WeatherStation/blob/main/images/Schematics.png? raw=true">
+</p>
