@@ -102,4 +102,4 @@ To upload code to the Arduino board ensure you have the following wirings connec
 * This project is still being completed...
 * This display does not support the degrees symbol
 * If you decide to change the BMP images familiarize yourself with the libraries documentaiton on Bitmaps because it is a little complicated.
-* The sketch became too large for an Arduino Uno R3 so I have upgraded to an Arduino Mega.
+* The sketch became too large for an Arduino Uno R3 (32K bytes) so I have upgraded to an Arduino Mega.
