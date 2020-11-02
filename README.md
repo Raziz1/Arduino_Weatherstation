@@ -2,7 +2,7 @@
 Arduino Uno R3 + TFT Display + Esp8266 (Esp-01)
 
 <p> 
-  <img align='Right' src="https://github.com/Raziz1/Arduino_WeatherStation/blob/main/images/WeatherStation.png? raw=true">
+  <img width =256 height = 256 align='Right' src="https://github.com/Raziz1/Arduino_WeatherStation/blob/main/images/WeatherStation.png? raw=true">
 </p>
 
 ## Parts 🔧🔨
