@@ -51,7 +51,7 @@ To flash the WiFi Module ensure you have the following wirings connected:
 * Once the code is uploaded open the Serial Monitor and check what the board is outputting
 * *When flashing the WiFi Module with new code ensure you unplug the VCC power cable and replug it back in. This Should reboot the WiFi Module into Flash mode while clearing its memory*
 
-### Uploading Code to Arduino for TFT 🖥
+### Uploading Code to Arduino for TFT Display🖥
 To upload code to the Arduino board ensure you have the following wirings connected:
 | Esp8266        | Arduino      |
 | ------------- |:-------------:| 
@@ -67,5 +67,5 @@ To upload code to the Arduino board ensure you have the following wirings connec
 * Ensure the LCD library is imported
 * In Tools/Boards change the board to Arduino Uno 
 * Upload the code
-* Once the code is uploaded **Switch the Tx and Rx cables** This will allow the Arduino board to receive and transmit data to the LCD screen
+* Once the code is uploaded **Switch the Tx and Rx cables.** This will allow the Arduino board to receive and transmit data to the TFT display
 * Once you are finished all the above steps **Switch the GPIO pin on the Esp8266 to 3.3v.** This ensures that it boots up into a none flash mode and reads the code in its flash memory.
