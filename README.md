@@ -28,5 +28,5 @@ This project assumes you have some basic knowledge when it comes to using both t
   
  ## Schematics ⚡
 <p> 
-  <img align='Left' src="https://github.com/Raziz1/Arduino_WeatherStation/blob/main/images/Schematics.png? raw=true">
+  <img align='Left' src="https://github.com/Raziz1/Arduino_WeatherStation/blob/main/images/Schematic.png? raw=true">
 </p>
