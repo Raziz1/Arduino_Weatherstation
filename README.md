@@ -25,3 +25,5 @@ This project assumes you have some basic knowledge when it comes to using both t
   - Input your Wifi Network credentials in ssid & password
   - Input your API link with your city ID (& other parameters) as well as the API key
   - You can use [ArduinoJson](https://arduinojson.org/v5/assistant/) which is a parsing assistant to break down the Json file
+  
+ ## Schematics ⚡
