@@ -46,15 +46,16 @@ The TFT display shield consumes all the pins when directly mounted on the Arduin
 | LCD_D5        | 5             | 
 | LCD_D6        | 6             | 
 | LCD_D7        | 7             | 
-| LCD_RST       | A4             | 
-| LCD_CS        | A3             | 
-| LCD_RS        | A2             | 
-| LCD_WR        | A1             | 
-| LCD_RD        | A0             | 
-| SD_SS        | 10             | 
-| SD_DI        | 11             | 
-| SD_DO       | 12             | 
-| SD_SCK        | 13             | 
+| LCD_RST       | A4            | 
+| LCD_CS        | A3            | 
+| LCD_RS        | A2            | 
+| LCD_WR        | A1            | 
+| LCD_RD        | A0            | 
+| SD_SS         | 10            | 
+| SD_DI         | 11            | 
+| SD_DO         | 12            | 
+| SD_SCK        | 13            | 
+* View the documentation of both the board and the GUI library to familiarize yourself with it. Walk throught the examples in the GUI library specifically the graphics and SD card examples. You can also reference the GUI documentation for syntax.
 
 ___
 
