@@ -1,4 +1,4 @@
-# Arduino_WeatherStation ☁
+# Arduino_Weatherstation ☁
 Arduino Uno R3 + TFT Display + Esp8266 (Esp-01)
 
 <p> 
