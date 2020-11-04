@@ -96,7 +96,7 @@ To upload code to the Arduino board ensure you have the following wirings connec
 |               |Reset - Nothing| 
 
 **Arduino IDE setup:**
-* Ensure the LCD library is imported
+* Ensure the TFT libraries are imported
 * In Tools/Boards change the board to Arduino Uno 
 * Upload the code
 * Once the code is uploaded **Switch the Tx and Rx cables.** This will allow the Arduino board to receive and transmit data to the TFT display
