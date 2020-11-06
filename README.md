@@ -41,7 +41,7 @@ This project assumes you have some basic knowledge when it comes to using both t
 
 ### Wiring TFT Display 
 The TFT display shield consumes all the pins when directly mounted on the Arduino Uno R3 so instead follow this wiring scheme:
-| TFT Display   | Arduino       |  Mega         |
+|   **TFT Display**  | **Arduino**       |    **Mega**         |
 | ------------- |:-------------:|:-------------:|
 | 5V            | 5V            | 5V            | 
 | 3.3V          | 3.3V          |3.3V          |   
@@ -59,10 +59,11 @@ The TFT display shield consumes all the pins when directly mounted on the Arduin
 | LCD_RS        | A2            |A2            | 
 | LCD_WR        | A1            |A1            | 
 | LCD_RD        | A0            |A0            | 
-| SD_SS         | 10            |53            | 
-| SD_DI         | 11            |51            | 
-| SD_DO         | 12            |50            | 
-| SD_SCK        | 13            |52            | 
+| SD_SS         | 10            |**53**            | 
+| SD_DI         | 11            |**51**            | 
+| SD_DO         | 12            |**50**            | 
+| SD_SCK        | 13            |**52**            | 
+
 * View the documentation of both the board and the GUI library to familiarize yourself with it. Walk throught the examples in the GUI library specifically the graphics and SD card examples. You can also reference the GUI documentation for syntax.
 * The SD card does not work for the Arduino Mega when it is mounted as a shield. It requires you to wire the SD pins to (50-53) because they support SPI.
 
