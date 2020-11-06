@@ -35,34 +35,34 @@ This project assumes you have some basic knowledge when it comes to using both t
   - You can use [ArduinoJson](https://arduinojson.org/v5/assistant/) which is a parsing assistant to break down the Json file
   
  ## Schematics ⚡
-<p> 
+ <p> 
   <img align='Center' src="https://github.com/Raziz1/Arduino_WeatherStation/blob/main/images/Schematic.png? raw=true">
 </p>
 
 ### Wiring TFT Display 
 The TFT display shield consumes all the pins when directly mounted on the Arduino Uno R3 so instead follow this wiring scheme:
-| TFT Display   | Arduino      |
-| ------------- |:-------------:| 
-| 5V            | 5V            | 
-| 3.3V          | 3.3V          |   
-| Ground        | Ground        | 
-| LCD_DO        | 8             | 
-| LCD_D1        | 9             | 
-| LCD_D2        | 2             | 
-| LCD_D3        | 3             | 
-| LCD_D4        | 4             |
-| LCD_D5        | 5             | 
-| LCD_D6        | 6             | 
-| LCD_D7        | 7             | 
-| LCD_RST       | A4            | 
-| LCD_CS        | A3            | 
-| LCD_RS        | A2            | 
-| LCD_WR        | A1            | 
-| LCD_RD        | A0            | 
-| SD_SS         | 10            | 
-| SD_DI         | 11            | 
-| SD_DO         | 12            | 
-| SD_SCK        | 13            | 
+| TFT Display   | Arduino       |  Mega         |
+| ------------- |:-------------:|:-------------:|
+| 5V            | 5V            | 5V            | 
+| 3.3V          | 3.3V          |3.3V          |   
+| Ground        | Ground        |Ground        | 
+| LCD_DO        | 8             |8             | 
+| LCD_D1        | 9             |9             | 
+| LCD_D2        | 2             | 2             | 
+| LCD_D3        | 3             | 3             | 
+| LCD_D4        | 4             | 4             |
+| LCD_D5        | 5             | 5             | 
+| LCD_D6        | 6             | 6             | 
+| LCD_D7        | 7             |7             | 
+| LCD_RST       | A4            |A4            | 
+| LCD_CS        | A3            |A3            | 
+| LCD_RS        | A2            |A2            | 
+| LCD_WR        | A1            |A1            | 
+| LCD_RD        | A0            |A0            | 
+| SD_SS         | 10            |53            | 
+| SD_DI         | 11            |11            | 
+| SD_DO         | 12            | 12            | 
+| SD_SCK        | 13            |13            | 
 * View the documentation of both the board and the GUI library to familiarize yourself with it. Walk throught the examples in the GUI library specifically the graphics and SD card examples. You can also reference the GUI documentation for syntax.
 
 ___
