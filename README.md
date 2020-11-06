@@ -64,6 +64,7 @@ The TFT display shield consumes all the pins when directly mounted on the Arduin
 | SD_DO         | 12            |50            | 
 | SD_SCK        | 13            |52            | 
 * View the documentation of both the board and the GUI library to familiarize yourself with it. Walk throught the examples in the GUI library specifically the graphics and SD card examples. You can also reference the GUI documentation for syntax.
+* The SD card does not work for the Arduino Mega when it is mounted as a shield. It requires you to wire the SD pins to (50-53) because they support SPI.
 
 ___
 
