@@ -16,11 +16,15 @@ Arduino Uno R3 + TFT Display + Esp8266 (Esp-01)
 
 ## Libraries 📚
 * [Esp8266 Library](https://github.com/sleemanj/ESP8266_Simple)
+  - [ESP8266 WiFi](https://arduino-esp8266.readthedocs.io/en/latest/esp8266wifi/readme.html)
+  - [ESP8266 HTTP Client](https://github.com/esp8266/Arduino/tree/master/libraries/ESP8266HTTPClient)
 * Kuman TFT Display Shield Libraries
   - [LCDWIKI_gui](https://github.com/lcdwiki/LCDWIKI_gui)
   - [LCDWIKI_kbv](https://github.com/lcdwiki/LCDWIKI_kbv)
   - [LCDWIKI_SPI](https://github.com/lcdwiki/LCDWIKI_SPI)
   - [LCDWIKI_touch](https://github.com/lcdwiki/LCDWIKI_touch)
+* [Arduino JSON](https://github.com/bblanchon/ArduinoJson)
+  - Arduino JSON version 5.13.5 worked for me
   
 ## Overview
 This project assumes you have some basic knowledge when it comes to using both the Esp8266 WiFi Module and the Kuman TFT Display Shield.  
