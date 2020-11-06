@@ -1,5 +1,5 @@
 # Arduino_Weatherstation ☁
-Arduino Uno R3/ Arduino Mega 2560 R3 + TFT Display + Esp8266 (Esp-01)
+Arduino Uno R3/Arduino Mega 2560 R3 + TFT Display + Esp8266 (Esp-01)
 
 <p> 
   <img align='Right' src="https://github.com/Raziz1/Arduino_WeatherStation/blob/main/images/WeatherStation.png? raw=true">
