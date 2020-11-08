@@ -6,12 +6,12 @@
 #include <ArduinoJson.h>
 
 //Network information__________________
-const char* ssid = "pagaladhmi";
-const char* password = "pagalinsaan";
+const char* ssid = "XXXXXXXXXX";
+const char* password = "XXXXXXXXXX";
 
 //API information__________________________
-const String endpoint = "http://api.openweathermap.org/data/2.5/weather?q=Ottawa,CA&units=metric&appid=";
-const String key = "0498228c4cc70f8c9f9051d17dee5679";
+const String endpoint = "http://api.openweathermap.org/data/2.5/weather?q=Toronto,CA&units=metric&appid=";
+const String key = "XXXXXXXXXXXX";
 const String endpoint_clock = "http://worldtimeapi.org/api/timezone/America/Toronto";
 //const String endpoint_snow = "https://www.arduino.cc/reference/en/language/variables/data-types/string/functions/substring/";
 String date_time;
@@ -48,6 +48,7 @@ void loop() {
     int httpCode_clock = http.GET();
     if (httpCode_clock > 0) {
       String payload_clock = http.getString();
+      //Parsing JSON____________________________________________________________________________________
       const size_t capacity = JSON_OBJECT_SIZE(15) + 340;
       DynamicJsonBuffer jsonBuffer(capacity);
 
