@@ -146,7 +146,7 @@ void draw_bmp_picture(File fp, int x, int y)
 }
 
 
-//Function for drawing yellow squares_________________________________
+//==================== Function for Drawing Squares ====================
 void fill_rectangle_test(void) {
   mylcd.Set_Draw_color(YELLOW);
   mylcd.Fill_Round_Rectangle(5, 5, 315, 96, 8);
@@ -155,8 +155,8 @@ void fill_rectangle_test(void) {
   mylcd.Fill_Round_Rectangle (5, 266, 315, 426, 8);
 
 }
-//Functions for drawing clock_________________________________
 
+//==================== Function for Drawing CLOCK ====================
 void text_time(void) {
   //Text (TIME)_____________________________________
   mylcd.Set_Text_Mode(1);
@@ -312,7 +312,8 @@ void loop() {
     temp_min =  Serial.readStringUntil(',');
     wind_speed =  Serial.readStringUntil('\n');
   }
-
+  
+  //Update every 5 seconds
   if (millis_now - millis_previous >= 5000) {
     millis_previous = millis_now;
     mylcd.Set_Rotation(0);
