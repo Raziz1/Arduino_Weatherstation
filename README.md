@@ -29,10 +29,12 @@ Arduino Uno R3/Arduino Mega 2560 R3 + TFT Display + Esp8266 (Esp-01)
 ## Overview
 This project assumes you have some basic knowledge when it comes to using both the Esp8266 WiFi Module and the Kuman TFT Display Shield.  
 * This project uses OpenWeathers API to access online data. Go to OpenWeather.org to setup a free account and get your API key.
-* In the "Weather_Scrapper_ESP8266.io" file you will have to change a fiew things.
+* In the "TFT_ESP_SCRAPPER.ino" file you will have to change a fiew things.
   - Input your Wifi Network credentials in ssid & password
   - Input your API link with your city ID (& other parameters) as well as the API key
   - You can use [ArduinoJson](https://arduinojson.org/v5/assistant/) which is a parsing assistant to break down the Json file
+* There is an extra box for whatever other API you want to scrape.
+* Unfortunately I attempted to scrape a (https) snowday predictor but it never ended up working.  
   
  ## Schematics ⚡
  <p> 
