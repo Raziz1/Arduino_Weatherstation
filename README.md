@@ -33,7 +33,9 @@ This project assumes you have some basic knowledge when it comes to using both t
   - Input your Wifi Network credentials in ssid & password
   - Input your API link with your city ID (& other parameters) as well as the API key
   - You can use [ArduinoJson](https://arduinojson.org/v5/assistant/) which is a parsing assistant to break down the Json file
-* There is an extra box for whatever other API you want to scrape.
+* There is an extra box for whatever other API you want to scrape. Some APIs I would recommend:
+  * [Api-Sports](https://dashboard.api-football.com/)
+  * [GNews API](https://gnews.io/)
 * Unfortunately I attempted to scrape a (https) snowday predictor but it never ended up working.  
   
  ## Schematics ⚡
